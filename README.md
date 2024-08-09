@@ -148,8 +148,9 @@ JWT_SECRET=<your_jwt_secret_key>
    ```bash
    npm install express mongoose bcryptjs    jsonwebtoken cors dotenv
 npm install --save-dev nodemon
-      ```
-4. Project Structure
+    ```
+
+4. **Project Structure**
 ```bash
     ecommerce-backend
 │
