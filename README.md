@@ -87,22 +87,22 @@ This is a simple e-commerce product listing application that allows users to vie
 ├── src
 │   ├── assets
 │   ├── components
-│   │   ├── ProductList.vue
+│   │   ├── productList.vue
 │   │   ├── addProduct.vue
-│   │   ├── Login.vue
+│   │   ├── login.vue
 │   ├── store
 │   │   └── index.js
 │   ├── views
-│   │   ├── Home.vue
+│   │   ├── home.vue
 │   │   ├── log.vue
 │   │   └── addProd.vue
-│   ├── App.vue
+│   ├── app.vue
 │   ├── main.js
 │   └── router.js
 │
 ├── public
 │
-    ```
+```
 3. **Run the development server:**
 
    ```bash
