@@ -20,7 +20,6 @@
 - [Deployment](#deployment)
 - [Environment Variables](#environment-variables)
 - [Database Schema](#database-schema)
-- [Deployed Application](#deployed-application)
 - [License](#license)
 
 ## Overview
