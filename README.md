@@ -81,6 +81,7 @@ This is a simple e-commerce product listing application that allows users to vie
    npm install vuex vue-router axios bootstrap
    ```
 3. **Create Project Structure**
+   ```bash
    ecommerce-frontend
 │
 ├── src
@@ -137,6 +138,7 @@ JWT_SECRET=<your_jwt_secret_key>
 1 Initialize the node.js project 
    ```bash
    mkdir ecommerce-backend
+    ```
 1. Navigate to the backend directory.
    ```bash
    cd ecommerce-backend
@@ -147,7 +149,7 @@ JWT_SECRET=<your_jwt_secret_key>
    npm install express mongoose bcryptjs    jsonwebtoken cors dotenv
 npm install --save-dev nodemon
    ```
-3. Project Structure
+3. **Project Structure**
    ```bash
     ecommerce-backend
 │
