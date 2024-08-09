@@ -88,14 +88,14 @@ This is a simple e-commerce product listing application that allows users to vie
 │   ├── assets
 │   ├── components
 │   │   ├── ProductList.vue
-│   │   ├── AddProduct.vue
+│   │   ├── addProduct.vue
 │   │   ├── Login.vue
 │   ├── store
 │   │   └── index.js
 │   ├── views
 │   │   ├── Home.vue
-│   │   ├── Login.vue
-│   │   └── AddProduct.vue
+│   │   ├── log.vue
+│   │   └── addProd.vue
 │   ├── App.vue
 │   ├── main.js
 │   └── router.js
@@ -154,21 +154,21 @@ npm install --save-dev nodemon
     ecommerce-backend
 │
 ├── models
-│   ├── User.js
-│   └── Product.js
+│   ├── userModel.js
+│   └── productModel.js
 │
 ├── routes
-│   ├── auth.js
-│   └── products.js
+│   ├── authRoute.js
+│   └── prodRoute.js
 │
 ├── middleware
-│   └── authMiddleware.js
+│   └── authMidware.js
 │
 ├── config
-│   └── db.js
+│   └── database.js
 │
 ├── .env
-├── server.js
+├── serverSetUp.js
 └── package.json
    ```
 3. Set up environment variable
