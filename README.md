@@ -65,22 +65,22 @@ This is a simple e-commerce product listing application that allows users to vie
    ```bash
    git clone <repository-url>
    ```
-1. Create vue.js project
+2. Create vue.js project
    ```bash
    vue create ecommerce-frontend
    ```
-1. **Navigate to the frontend directory:**
+3. **Navigate to the frontend directory:**
 
    ```bash
    cd ecommerce-frontend
    ```
 
-2. **Install dependencies:**
+4. **Install dependencies:**
 
    ```bash
    npm install vuex vue-router axios bootstrap
    ```
-3. **Create Project Structure**
+5. **Create Project Structure**
 ```bash
    ecommerce-frontend
 │
@@ -103,7 +103,7 @@ This is a simple e-commerce product listing application that allows users to vie
 ├── public
 │
 ```
-3. **Run the development server:**
+6. **Run the development server:**
 
    ```bash
    npm run serve
@@ -138,19 +138,19 @@ JWT_SECRET=<your_jwt_secret_key>
 1 Initialize the node.js project 
    ```bash
    mkdir ecommerce-backend
-    ```
-1. Navigate to the backend directory.
+   ```
+2. Navigate to the backend directory.
    ```bash
    cd ecommerce-backend
    npm init -y
    ```
-2. Install dependencies.
+3. Install dependencies.
    ```bash
    npm install express mongoose bcryptjs    jsonwebtoken cors dotenv
 npm install --save-dev nodemon
-   ```
-3. Project Structure
-   ```bash
+      ```
+4. Project Structure
+```bash
     ecommerce-backend
 │
 ├── models
@@ -171,9 +171,9 @@ npm install --save-dev nodemon
 ├── serverSetUp.js
 └── package.json
    ```
-3. Set up environment variable
+5. Set up environment variable
 
-5. Run the server.
+6. Run the server.
    ```bash
    npm run start
    ```
@@ -251,15 +251,6 @@ JWT_SECRET=<your-jwt-secret>
 - `price`: Number, required
 - `imageURL`: String, required
 - `createdBy`: Reference to a user, required
-
-## Deployed Application
-
-The application is deployed and can be accessed [here](#).
-
-
-
-
-
 
 ---
 
